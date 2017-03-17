@@ -1,0 +1,29 @@
+body {
+    background-color: darkcyan;
+    color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
+}
+.contents {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.output {
+    border: 2px solid #ffffff;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 22px;
+}
+h3, ol {
+    padding-left: 20%;
+    position: absolute;
+    z-index: 100;
+}
