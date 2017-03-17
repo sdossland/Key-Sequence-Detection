@@ -24,6 +24,4 @@ body {
 }
 h3, ol {
     padding-left: 20%;
-    position: absolute;
-    z-index: 100;
 }
